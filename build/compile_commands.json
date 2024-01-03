@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ewylim/git/lc/build",
+  "command": "/usr/bin/clang++ -isystem /usr/lib/llvm-15/include -g -std=gnu++17 -o src/CMakeFiles/main.dir/main.cpp.o -c /home/ewylim/git/lc/src/main.cpp",
+  "file": "/home/ewylim/git/lc/src/main.cpp"
+},
+{
+  "directory": "/home/ewylim/git/lc/build",
+  "command": "/usr/bin/clang++ -isystem /usr/lib/llvm-15/include -g -std=gnu++17 -o src/CMakeFiles/main2.dir/main2.cpp.o -c /home/ewylim/git/lc/src/main2.cpp",
+  "file": "/home/ewylim/git/lc/src/main2.cpp"
+},
+{
+  "directory": "/home/ewylim/git/lc/build",
+  "command": "/usr/bin/clang++ -isystem /usr/lib/llvm-15/include -g -std=gnu++17 -o frontend/CMakeFiles/lexer.dir/lexer.cpp.o -c /home/ewylim/git/lc/frontend/lexer.cpp",
+  "file": "/home/ewylim/git/lc/frontend/lexer.cpp"
+}
+]

@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.def": "cpp",
+        "*.inc": "cpp",
+        "cmath": "cpp",
+        "new": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+}
