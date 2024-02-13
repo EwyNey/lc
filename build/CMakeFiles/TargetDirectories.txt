@@ -7,6 +7,5 @@
 /home/ewylim/git/lc/build/src/CMakeFiles/main2.dir
 /home/ewylim/git/lc/build/src/CMakeFiles/edit_cache.dir
 /home/ewylim/git/lc/build/src/CMakeFiles/rebuild_cache.dir
-/home/ewylim/git/lc/build/frontend/CMakeFiles/lexer.dir
 /home/ewylim/git/lc/build/frontend/CMakeFiles/edit_cache.dir
 /home/ewylim/git/lc/build/frontend/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,10 @@
+#include <iostream>
+#include <llvm/ADT/StringRef.h>
 #include <llvm/IR/DiagnosticInfo.h>
 #include <llvm/IR/IRBuilder.h>
 #include <llvm/IR/LLVMContext.h>
+#include <llvm/Support/Compiler.h>
+#include <llvm/Support/DataTypes.h>
 #include <llvm/Support/SMLoc.h>
 #include <llvm/Support/SourceMgr.h>
 #include <stdint.h>

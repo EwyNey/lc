@@ -22,7 +22,7 @@
 					[
 						0,
 						1,
-						5
+						4
 					]
 				},
 				{
@@ -37,8 +37,8 @@
 					"source" : "src",
 					"targetIndexes" : 
 					[
-						3,
-						4
+						2,
+						3
 					]
 				},
 				{
@@ -50,11 +50,7 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "frontend",
-					"targetIndexes" : 
-					[
-						2
-					]
+					"source" : "frontend"
 				}
 			],
 			"name" : "Debug",
@@ -74,8 +70,7 @@
 						1,
 						2,
 						3,
-						4,
-						5
+						4
 					]
 				}
 			],
@@ -93,13 +88,6 @@
 					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-intrinsics_gen-Debug-23b7e4c979cfa1cd7c61.json",
 					"name" : "intrinsics_gen",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 2,
-					"id" : "lexer::@73e8a6b9a3e1c0d3809b",
-					"jsonFile" : "target-lexer-Debug-627b1cca2dcc4f18d436.json",
-					"name" : "lexer",
 					"projectIndex" : 0
 				},
 				{

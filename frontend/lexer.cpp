@@ -1,14 +1,4 @@
 #include "lexer.h"
-#include <iostream>
-#include <llvm/ADT/StringRef.h>
-#include <llvm/IR/IRBuilder.h>
-#include <llvm/IR/LLVMContext.h>
-#include <llvm/Support/Compiler.h>
-#include <llvm/Support/DataTypes.h>
-#include <stdint.h>
-#include <stdio.h>
-#include <string.h>
-#include <sys/mman.h>
 
 namespace charinfo {
 
@@ -38,6 +28,22 @@ inline bool isIdentifierBody(const char &Ch) {
 } // namespace charinfo
 
 NamesMap Lexer::ids_map;
+
+Name *NamesMap::getName(llvm::StringRef ID) {
+  return addName(ID, tok::Identifier);
+}
+
+Name *NamesMap::addName(llvm::StringRef ID, tok::TokenKind code) {
+  auto key = hash_table.insert(std::make_pair(ID, Name()));
+  if (!key.second) {
+    return &key.first->getValue();
+  }
+  Name *name = &key.first->getValue();
+  name->ID = key.first->getKeyData();
+  name->kind = code;
+  name->lenght = key.first->getKeyLength();
+  return name;
+}
 
 void Lexer::next(Token &result) {
   result.kind = tok::Invalid;
@@ -225,4 +231,4 @@ void Lexer::next(Token &result) {
   cur_pos = p;
 }
 
-int main() { return 0; }
+// int main() { return 0; }
