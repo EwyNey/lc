@@ -231,4 +231,4 @@ void Lexer::next(Token &result) {
   cur_pos = p;
 }
 
-int main() { return 0; }
+// int main() { return 0; }

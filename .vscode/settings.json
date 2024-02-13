@@ -4,7 +4,12 @@
         "*.def": "cpp",
         "*.inc": "cpp",
         "cmath": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "streambuf": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
 }
